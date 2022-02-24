@@ -48,6 +48,7 @@ Database명 변경 필요
 
 ```
 DATABASE_NAME = 'sampledb'
+
 .....
 
 def get_configuration_snapshot_object_key_match(object_key):
@@ -58,6 +59,9 @@ def get_configuration_snapshot_object_key_match(object_key):
 *변경(bucket 경로 확인 후 AWSLogs앞에 추가)*
 ```
 DATABASE_NAME = 'default' #사용하는 DB명으로 변경
+
+......
+
 def get_configuration_snapshot_object_key_match(object_key):
     # Matches object keys like AWSLogs/123456789012/Config/us-east-1/2018/4/11/ConfigSnapshot/123456789012_Config_us-east-1_ConfigSnapshot_20180411T054711Z_a970aeff-cb3d-4c4e-806b-88fa14702hdb.json.gz
     return re.match('^o-cjbxfvebcu/AWSLogs/(\d+)/Config/([\w-]+)/(\d+)/(\d+)/(\d+)/ConfigSnapshot/[^\\\]+$', object_key)
