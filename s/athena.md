@@ -40,9 +40,12 @@ LOCATION 's3://<S3_BUCKET_NAME>/AWSLogs/';
 -- 예 's3://aws-controltower-logs-037777328400-ap-northeast-2/o-cjbxfvebcu/AWSLogs/'
 ```
 
+
+
 람다 함수 생성
-[2]링크에 나오는 람다함수에서 get_configuration_snapshot_object_key_match() 변경필요
-Database명 변경 필요
+[2]링크에 나오는 람다함수에서 아래 두개 변경 필요 (람다 전체 코드는 [2] blog 참고)
+  - get_configuration_snapshot_object_key_match() re.match 변경필요
+  - Database명 변경 필요
 
 *기존*
 
