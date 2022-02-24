@@ -60,6 +60,8 @@ def get_configuration_snapshot_object_key_match(object_key):
 ```
 
 *변경(bucket 경로 확인 후 AWSLogs앞에 추가)*
+![image](https://user-images.githubusercontent.com/42329161/155575827-6785ccae-3956-471a-b556-5913939ce0d7.png)
+
 ```
 DATABASE_NAME = 'default' #사용하는 DB명으로 변경
 
