@@ -119,7 +119,7 @@ LOCATION
 <img width="941" alt="image" src="https://user-images.githubusercontent.com/42329161/155562084-3153cb21-ed5e-4465-be48-4e7faa3ecba2.png">
 
 
-v_aws_org_accounts view를 생성하고 기존에 생성한 view와 account view와 조인하여 새로운 view를 생성
+v_aws_org_accounts view를 생성하고 기존에 생성한 view와 account view와 조인하여 새로운 view를 생성   
 [1]의 Join the AWS Organizations data on the AWS Config views in Amazon Athena 항목
 
 **생성된 테이블 조회**
