@@ -74,7 +74,13 @@ S3 bucket에서 config log를 put하면 해당 람다가 동작함
 <img width="693" alt="image" src="https://user-images.githubusercontent.com/42329161/155549273-b9ae1796-08f0-4fb0-9e90-48ad92f09bf0.png">
 
 
+
+
+
 ***
+
+
+
 
 
 [2]번 작업이 완료가 되면 Athena에서 SQL을 통해 조회가 가능해짐, [1]번 링크의 작업들 수행
