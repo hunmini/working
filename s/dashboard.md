@@ -49,13 +49,24 @@ LEFT JOIN b ON ("a"."accountid" = "b"."accountid"))
 위에서 생성한 v_config_rules_resource_compliances_aws_org_accounts Veiw를 가지고 Dataset 생성
 
 
-![image](https://user-images.githubusercontent.com/42329161/155920991-4f8caf5f-0f5f-4b7a-af22-f414ada38367.png)
-
-우측상단 그래프 생성 방법
-![image](https://user-images.githubusercontent.com/42329161/155921131-0fc357f0-7084-4781-83ff-3fff04b65395.png)
 
 
-Fields list - Compliance Type 선택 
+# 그래프 생성 방법
+![image](https://user-images.githubusercontent.com/42329161/155921838-b7471d6a-5f8b-4ecc-a0bf-df9ee1f419c3.png)
+
+
+## 1번항목
+
+Fields list - Compliance Type 선택    
 Visual Type - Donut Chart 선택
+
+![image](https://user-images.githubusercontent.com/42329161/155927576-78f659c9-9354-4aa7-9dc3-fbb7deada2b4.png)
+
+## 2번항목
+Fields list - Resource Type 선택    
+Visual Type - Donut Chart 선택   
+Filter - Non_compliant 선택   
+![image](https://user-images.githubusercontent.com/42329161/155928503-5a548f72-14b4-4164-a573-86f81330a7bb.png)
+![image](https://user-images.githubusercontent.com/42329161/155928461-91f559f4-55df-4b84-a470-231b7a856ce2.png)
 
 
