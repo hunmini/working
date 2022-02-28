@@ -4,7 +4,7 @@
 [1] 링크의 `Advanced queries against AWS Config rules`의 `Example 6: Create a view of each AWS Config rule and resource compliance evaluation` Create View SQL 구문 참고하여 생성      
 [1] 링크의 `Join the AWS Organizations data on the AWS Config views in Amazon Athena` 의 Create View SQL을 참고하여 v_config_rules_resource_compliances와 Account정보를 조인한 View생성
 
-예시
+예시 - 참고로 blog에 나온 solution 과 같은 정보를 제외하고 테이블을 생성하였음(이 부분은 필요 정보에 따라 변경 필요)
 ```sql
 CREATE OR REPLACE VIEW v_config_rules_resource_compliances_aws_org_accounts AS
 
