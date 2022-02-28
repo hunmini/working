@@ -5,7 +5,7 @@
 [1] 링크의 `Join the AWS Organizations data on the AWS Config views in Amazon Athena` 의 Create View SQL을 참고하여 v_config_rules_resource_compliances와 Account정보를 조인한 View생성
 
 예시
-```
+```sql
 CREATE OR REPLACE VIEW v_config_rules_resource_compliances_aws_org_accounts AS
 
 WITH
@@ -44,3 +44,6 @@ FROM
 
 LEFT JOIN b ON ("a"."accountid" = "b"."accountid"))
 ```
+
+
+
