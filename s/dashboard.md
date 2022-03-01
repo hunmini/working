@@ -62,12 +62,16 @@ Visual Type - Donut Chart 선택
 
 ![image](https://user-images.githubusercontent.com/42329161/155927576-78f659c9-9354-4aa7-9dc3-fbb7deada2b4.png)
 
+
+   
 ## 2번항목
 Fields list - Resource Type 선택    
 Visual Type - Donut Chart 선택   
 Filter - Non_compliant 선택   
 ![image](https://user-images.githubusercontent.com/42329161/155928503-5a548f72-14b4-4164-a573-86f81330a7bb.png)
 ![image](https://user-images.githubusercontent.com/42329161/155928461-91f559f4-55df-4b84-a470-231b7a856ce2.png)
+
+   
 
 ## 3번항목
 1) Fields list - Compliance Type 선택     
@@ -81,6 +85,8 @@ Filter - Non_compliant 선택
    
 ![image](https://user-images.githubusercontent.com/42329161/155939329-3252b4b1-f848-4c75-b75b-5f446b8b5ce1.png)
 
+
+
 ## 4번 항목
 1) Fields list - Compliance Type 선택     
 2) Visual Type - Pivot Table 선택      
@@ -91,6 +97,8 @@ Filter - Non_compliant 선택
 ![image](https://user-images.githubusercontent.com/42329161/155940558-75d6f884-3e9e-4022-a7ba-8bc732986ea6.png)
 
 
+   
+   
 ## 5번항목
 1) Fields list - Configurulename 선택     
 2) Visual Type - Auto Grape 그냥 사용   
@@ -98,7 +106,9 @@ Filter - Non_compliant 선택
 
 ![image](https://user-images.githubusercontent.com/42329161/155940812-6eb2cb69-d4b9-48f6-8035-06f7cc93c655.png)
 
-
+   
+   
+   
 ## 6번 항목
 1) Fields list - account id 선택   
 2) Visual Type - table 선택
@@ -106,9 +116,12 @@ Filter - Non_compliant 선택
 4) Fielter 추가 - Non-compliant만 선택 
 ![image](https://user-images.githubusercontent.com/42329161/155941325-8bb05983-9a68-4409-82ff-d67b1d9ab3bf.png)   
    
-   
+  
+  
 ## 기타
 각 항목의 Tilte은 맞게 변경필요
+
+
 
 # 완성 화면
 
