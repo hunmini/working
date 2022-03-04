@@ -19,12 +19,19 @@ CROSS JOIN UNNEST("configurationitems") t (configurationItem)),
 UNNEST(CAST("json_extract"("configurationItem"."configuration", '$.configrulelist') AS array(row(configruleid varchar,configrulename varchar,configrulearn varchar,compliancetype varchar)))) x (n)
 WHERE ((("configurationItem"."resourcetype" = 'AWS::Config::ResourceCompliance') AND (n.configrulename IS NOT NULL)) AND ("dt" = 'latest'))
 ```
-
+  
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
       
-            
-            
-
+        
+          
+          
 ***
 작성중
 
