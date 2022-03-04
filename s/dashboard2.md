@@ -21,13 +21,9 @@ WHERE ((("configurationItem"."resourcetype" = 'AWS::Config::ResourceCompliance')
 ```
 
 
-
-   
       
-          
-             
-             
-
+            
+            
 
 ***
 작성중
