@@ -27,6 +27,13 @@ WHERE ((("configurationItem"."resourcetype" = 'AWS::Config::ResourceCompliance')
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
       
         
