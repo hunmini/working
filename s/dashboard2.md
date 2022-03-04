@@ -20,35 +20,17 @@ UNNEST(CAST("json_extract"("configurationItem"."configuration", '$.configrulelis
 WHERE ((("configurationItem"."resourcetype" = 'AWS::Config::ResourceCompliance') AND (n.configrulename IS NOT NULL)) AND ("dt" = 'latest'))
 ```
   
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-      
-        
-          
-          
-***
-작성중
 
 
-
+참고 Athena 한달전 날짜 확인 SQL
+```sql
+select cast(date(current_timestamp) - interval '1' day as varchar)
+```
 
 
 한달 전 기준으로 view 생성
 ```sql
-CREATE OR REPLACE VIEW v_config_rules_resource_compliances_before_one_month AS 
+CREATE OR REPLACE VIEW v_config_rules_resource_compliances_one_month AS 
 SELECT
   "configurationItem"."awsAccountId" "AccountId"
 , "configurationItem"."awsregion" "Region"
@@ -60,5 +42,5 @@ FROM
   (default.aws_config_configuration_snapshot
 CROSS JOIN UNNEST("configurationitems") t (configurationItem)),
 UNNEST(CAST("json_extract"("configurationItem"."configuration", '$.configrulelist') AS array(row(configruleid varchar,configrulename varchar,configrulearn varchar,compliancetype varchar)))) x (n)
-WHERE ((("configurationItem"."resourcetype" = 'AWS::Config::ResourceCompliance') AND (n.configrulename IS NOT NULL)) AND ("dt" = (select cast(date(current_timestamp) - interval '1' month as varchar))))
+WHERE ((("configurationItem"."resourcetype" = 'AWS::Config::ResourceCompliance') AND (n.configrulename IS NOT NULL)) AND ("dt" > (select cast(date(current_timestamp) - interval '1' month as varchar)))) 
 ```
