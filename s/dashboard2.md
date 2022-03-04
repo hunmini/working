@@ -20,6 +20,17 @@ UNNEST(CAST("json_extract"("configurationItem"."configuration", '$.configrulelis
 WHERE ((("configurationItem"."resourcetype" = 'AWS::Config::ResourceCompliance') AND (n.configrulename IS NOT NULL)) AND ("dt" = 'latest'))
 ```
 
+
+
+
+
+
+
+
+
+
+
+
 한달 전 기준으로 view 생성
 ```sql
 CREATE OR REPLACE VIEW v_config_rules_compliance_before_one_month AS 
