@@ -5,7 +5,7 @@
 
 
 ```sql
-CREATE OR REPLACE VIEW v_config_rules_compliance AS 
+CREATE OR REPLACE VIEW v_config_rules_resource_compliances AS 
 SELECT
   "configurationItem"."awsAccountId" "AccountId"
 , "configurationItem"."awsregion" "Region"
@@ -34,7 +34,7 @@ WHERE ((("configurationItem"."resourcetype" = 'AWS::Config::ResourceCompliance')
 
 한달 전 기준으로 view 생성
 ```sql
-CREATE OR REPLACE VIEW v_config_rules_compliance_before_one_month AS 
+CREATE OR REPLACE VIEW v_config_rules_resource_compliances_before_one_month AS 
 SELECT
   "configurationItem"."awsAccountId" "AccountId"
 , "configurationItem"."awsregion" "Region"
