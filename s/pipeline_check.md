@@ -45,7 +45,8 @@ resources:
 
 ## 해당 로그 확인 (view entire log 클릭 후 Cloud watch log groups에서 확인 가능)   
 
-![image](https://user-images.githubusercontent.com/42329161/157059317-ba513843-0235-49a0-9325-7b396f761c77.png)
+![image](https://user-images.githubusercontent.com/42329161/157060792-38f0c10c-ccc5-4e0e-a1f2-1a0777cc808d.png)
+
 
 ## Stack 으로 검색 - create 내역이 있는지 확인   
 
