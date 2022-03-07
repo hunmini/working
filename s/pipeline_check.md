@@ -1,4 +1,4 @@
-Test.yaml
+아래 yaml로 테스트 진행했습니다. 
 ```yaml
 ---
 # Home region for CodePipeline, StepFunctions, Lambda, SSM, StackSets
