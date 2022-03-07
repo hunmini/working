@@ -35,18 +35,18 @@ resources:
 
 ***
 
-# Pipeline clikck   
+## Pipeline clikck   
 
 ![image](https://user-images.githubusercontent.com/42329161/157059018-2e9d8f1d-909d-4ea7-8d12-bf0b5ca90d15.png)
 
-# Details click   
+## Details click   
 
 ![image](https://user-images.githubusercontent.com/42329161/157059218-45a7cc25-e5a2-44d8-8f3c-8a27f3aa875a.png)
 
-# 해당 로그 확인 (view entire log 클릭 후 Cloud watch log groups에서 확인 가능)   
+## 해당 로그 확인 (view entire log 클릭 후 Cloud watch log groups에서 확인 가능)   
 
 ![image](https://user-images.githubusercontent.com/42329161/157059317-ba513843-0235-49a0-9325-7b396f761c77.png)
 
-# Stack 으로 검색 - create 내역이 있는지 확인   
+## Stack 으로 검색 - create 내역이 있는지 확인   
 
 ![image](https://user-images.githubusercontent.com/42329161/157060265-aa73d6f0-bc51-4f9e-83f5-3acee40e37b8.png)
