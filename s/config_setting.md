@@ -18,9 +18,10 @@ Action -> Add to stacks to stackset 선택
 ![image](https://user-images.githubusercontent.com/42329161/157245306-91b7c3ad-dca2-4981-8666-1eecaff2bda2.png)
 
 </br></br>
-Account -> Audit account 입력
-Region -> us-west-1 선택
-나머진 기본값으로 next/ Review 창에서 summit 선택
+Account -> Audit account 입력   
+Region -> us-west-1 선택   
+나머진 기본값으로 next   
+Review 창에서 summit 선택   
 ![image](https://user-images.githubusercontent.com/42329161/157245625-cc967535-7cef-4c49-948a-0add1378a5e9.png)
 
 </br></br>
