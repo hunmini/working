@@ -21,6 +21,7 @@ B SG 추가
 
 ### 로컬(my ip)에서 B 인스턴스 SSH 접근 - 실패
 ![image](https://user-images.githubusercontent.com/42329161/187827887-dfeceb4a-fefd-48ce-ac5d-ca86d94e0b29.png)
+#B의 SG에는 A SG에서의 SSH 접근이 허용된 것이지 A에 있는 my ip에서 접근이 허용하는 rule까지 적용된것이 아니기 때문에 접근 실패
 
 ### A 인스턴스 -> B 인스턴스로 접근 - 성공
 <img width="643" alt="image" src="https://user-images.githubusercontent.com/42329161/187828670-8c15aa18-2268-4fa4-a4c2-3fb7abeb354f.png">
