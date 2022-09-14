@@ -205,12 +205,20 @@ Resources:
 ![image](https://user-images.githubusercontent.com/42329161/190043627-b62054c7-daf7-4556-87cb-29918abd2f01.png)
 
    
-
 #### Config 내에서 해당 Rule이 해당 OU 하위 account에 적용된 내용 확인    
 ![image](https://user-images.githubusercontent.com/42329161/190043159-31f9978f-098c-4117-88b9-f735ddec4cda.png)
 
+#### 다른 Account 들도 확인 가능
 ![image](https://user-images.githubusercontent.com/42329161/190043279-60f4aded-6550-4db8-91cd-7355c060ec2a.png)
 ![image](https://user-images.githubusercontent.com/42329161/190043395-56a761a7-bcb9-49cb-8933-ca8d21928f84.png)
+
+
+#### Lambda에 태그 추가 후 Compliance 상태가 변경되는지 확인
+(조건을 Key : Dept  Value : Dev,ProjectA 일 경우 Compliant로 정의하였음)
+![image](https://user-images.githubusercontent.com/42329161/190044899-61e14f9e-510b-4ed4-835e-a7ce4c6061b0.png)
+
+
+
 
 
 
