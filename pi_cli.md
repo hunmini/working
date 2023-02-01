@@ -1,4 +1,5 @@
-
+db.sql_tokenized 기준 전체 조회   
+  
 ```
 [
    {
@@ -16,6 +17,7 @@
 ![image](https://user-images.githubusercontent.com/42329161/215984408-c79baa5a-5a36-499d-813b-208081de57b2.png)
 
 
+Filter 적용   
 ```
 [
    {
